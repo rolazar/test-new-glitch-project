@@ -16,4 +16,7 @@ git push -u origin main
 git add .
 
 //ATTACH A MEMO TO THE SAVE POINT
-git commit -m "I added user"
+git commit -m "I added user info to readme"
+
+//SYNC TO GITHUB
+git push origin main
