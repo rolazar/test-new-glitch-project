@@ -1,6 +1,6 @@
 echo "# multi-page-4znr7eualuc95gqefk2w9eh4wec2yut7vp9icjz2ggh7cekb8q" >> README.md
-git init
-git add README.md
+### git init
+### git add README.md
 git config user.name "rolazar"
 git config user.email "rolazar.aberin@codex.academy"
 git commit -m "first commit"
@@ -10,7 +10,7 @@ curl -sS https://webi.sh/gh | sh
 gh auth login
 git push --set-upstream origin main
 
-//PUSHES CHANGES TO THE ORIGIN'S MAIN BRANCH AND SAVES 
+//PUSHES CHANGES TO THE ORIGIN'S MAIN BRANCH AND SAVES THE PARAMETERS
 git push -u origin main
 
 //ADD CHANGES THAT WERE MADE TO THE README FILE
@@ -25,7 +25,11 @@ git commit -m "I added user info to readme"
 //SYNC CHANGES TO GITHUB
 git push
 
+//COPY THE FILES FROM GITHUB
 git pull --set-upstream origin main
+
+//COPY THE FILES FROM GITHUB WITH THE DEFAULT PARAMETERS
+git pull
 
 //VIEW THE VALUE OF ORIGIN
 git remote -v
