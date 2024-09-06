@@ -10,14 +10,20 @@ curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
 
-//ADD CHANGES OF THE README
+//ADD CHANGES THAT WERE MADE TO THE README FILE
 git add README.md
 
-//ADD CHANGES OF ALL FILES
+//ADD CHANGES THAT WERE MADE IN ALL FILES AND FOLDERS
 git add .
 
-//ATTACH A MEMO TO THE SAVE POINT
+//CREATE A SAVE POINT AND ATTACH A MEMO TO IT
 git commit -m "I added user info to readme"
 
-//SYNC TO GITHUB
+//SYNC CHANGES TO GITHUB
 git push origin main
+
+//VIEW THE VALUE OF ORIGIN
+git remote -v
+
+//ASSIGNS A URL TO THE ORIGIN VARIABLE
+git remote add origin https://github.com/rolazar
