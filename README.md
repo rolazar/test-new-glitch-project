@@ -27,3 +27,15 @@ git remote -v
 
 //ASSIGNS A URL TO THE ORIGIN VARIABLE
 git remote add origin https://github.com/rolazar
+
+//CHANGE THE VALUE OF THE ORIGIN VARIABLE
+git remote set-url origin https://github.com/rolazar
+
+//ACTIVATE OR INITIALIZE GIT SOURCE CONTROL
+git init
+
+//RENAMES THE CURRENT BRANCH TO MAIN
+git branch -M main
+
+//GET THE CURRENT VERSION OF GIT
+git --version
