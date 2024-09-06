@@ -8,6 +8,9 @@ git branch -M main
 git remote add origin https://github.com/rolazar/multi-page-4znr7eualuc95gqefk2w9eh4wec2yut7vp9icjz2ggh7cekb8q.git
 curl -sS https://webi.sh/gh | sh
 gh auth login
+git push --set-upstream origin main
+
+//PUSHES CHANGES TO THE ORIGIN'S MAIN BRANCH AND SAVES 
 git push -u origin main
 
 //ADD CHANGES THAT WERE MADE TO THE README FILE
@@ -20,7 +23,9 @@ git add .
 git commit -m "I added user info to readme"
 
 //SYNC CHANGES TO GITHUB
-git push origin main
+git push
+
+git pull --set-upstream origin main
 
 //VIEW THE VALUE OF ORIGIN
 git remote -v
