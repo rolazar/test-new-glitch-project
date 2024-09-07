@@ -1,6 +1,6 @@
 echo "# multi-page-4znr7eualuc95gqefk2w9eh4wec2yut7vp9icjz2ggh7cekb8q" >> README.md
-### git init
-### git add README.md
+git init
+git add README.md
 git config user.name "rolazar"
 git config user.email "rolazar.aberin@codex.academy"
 git commit -m "first commit"
@@ -44,6 +44,7 @@ git remote set-url origin https://github.com/rolazar
 git init
 
 //RENAMES THE CURRENT BRANCH TO MAIN
+//GIT MAY CALL THE BRANCH "master" BY DEFAULT
 git branch -M main
 
 //GET THE CURRENT VERSION OF GIT
